@@ -1,0 +1,12 @@
+### Testando o endpoint /upload
+
+POST http://localhost:8000/api/upload
+Content-Type: application/json
+
+{
+  "image": "data:image/png;base64,base64_encoded_image_here",
+  "customer_code": "c7f6d1c4-0b3d-4b3e-8f3a-6b7c9d0e2a1f",
+  "measure_datetime": "2024-08-30T12:00:00Z",
+  "measure_type": "WATER"
+}
+
