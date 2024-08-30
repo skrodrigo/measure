@@ -6,6 +6,7 @@ WORKDIR /usr/src/app
 
 # Copia o package.json e o pnpm-lock.yaml
 COPY package*.json ./
+COPY pnpm-lock.yaml ./
 
 # Instala as dependências
 RUN npm install -g pnpm && pnpm install
