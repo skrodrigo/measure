@@ -6,18 +6,11 @@ dist/
 
 # Logs
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 
 # Arquivos de ambiente
 .env
 .env.local
 .env.*.local
-
-# Arquivos do sistema
-.DS_Store
-Thumbs.db
 
 # Arquivos de IDE/Editor
 .vscode/
@@ -25,6 +18,4 @@ Thumbs.db
 *.swp
 *.swo
 
-# Arquivos de cache
-.npm
-.eslintcache
+*.db
